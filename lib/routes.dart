@@ -34,11 +34,7 @@ List<RouteEntity> get routes => [
   RouteEntity(
     key: '/alterar_limites_pix/alterar_limites_pix_inicio',
     uri: Uri.parse('/alterar_limites_pix/alterar_limites_pix_inicio'),
-    routeBuilder: (ctx, settings) => Routefly.defaultRouteBuilder(
-      ctx,
-      settings,
-      const a2.AlterarLimitesPixInicioPage(),
-    ),
+    routeBuilder: a2.routeBuilder,
   ),
   RouteEntity(
     key: '/alterar_limites_pix/alterar_limites_pix_fim',
