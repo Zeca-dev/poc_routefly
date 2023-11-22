@@ -13,7 +13,7 @@ class AppWidget extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      routerConfig: Routefly.routerConfig(routes: routes, initialPath: routePaths.path),
+      routerConfig: Routefly.routerConfig(routes: routes),
     );
   }
 }
